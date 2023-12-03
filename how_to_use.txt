@@ -1,0 +1,7 @@
+1. abres el bat "python" el cual te instalara python en tu pc
+
+2. luego de que se instale abres el bat "install" el cual te instalara los modulos para que funcione el GSI installer
+
+3. luego abres el archivo llamado "GSI.bat" el cual te abrira la app
+
+4. Listo!, luego seria usar la app y ya estaria.

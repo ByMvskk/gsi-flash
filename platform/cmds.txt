@@ -1,0 +1,15 @@
+fastboot set_active a
+fastboot reboot fastboot
+fastboot delete-logical-partition system_ext
+fastboot delete-logical-partition system_ext_a
+fastboot delete-logical-partition system_ext_b
+fastboot delete-logical-partition product
+fastboot delete-logical-partition product_a
+fastboot delete-logical-partition product_b
+fastboot resize-logical-partition system_a 4300000000
+fastboot flash system system.img
+fastboot flash vbmeta vbmeta.img
+fastboot --disable-verification flash vbmeta_a vbmeta.img
+fastboot --disable-verity flash vbmeta_a vbmeta.img
+fastboot -w
+fastboot reboot
