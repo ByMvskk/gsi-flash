@@ -1,4 +1,4 @@
-1. tienes que tener python 3.10 instalado de preferencia que sea el de microsoft store
+1. tienes que tener python 3.10 instalado de preferencia que sea el de microsoft store (si ya tienes python puedes saltar este paso.)
 
 2. luego de que se instale abres el bat "install" el cual te instalara los modulos para que funcione el GSI installer
 
