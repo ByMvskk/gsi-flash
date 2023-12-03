@@ -35,7 +35,7 @@ def mostrar_ayuda():
               "utilizando comandos de fastboot.\n\n" \
               "Instrucciones:\n" \
               "1. Conecta tu dispositivo al modo fastboot.\n" \
-              "2. Presiona el botón 'Instalar GSI' para iniciar el proceso de instalación.\n" \
+              "2. Luego pon la imagen gsi en platform y que se llame (system.img) y presiona el botón 'Instalar GSI' para iniciar el proceso de instalación.\n" \
               "3. Espera a que se complete la instalación y tu dispositivo se reinicie.\n\n" \
               "¡Nota: Utiliza este programa con precaución! La instalación de GSI puede " \
               "borrar datos y afectar el funcionamiento de tu dispositivo."
